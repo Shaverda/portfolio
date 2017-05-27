@@ -1,7 +1,7 @@
 html {
     position: relative;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: "ITC Johnston", "Proxima Nova", sans-serif;
     background-image: url('/images/brickwall.png');
 }
 body {
@@ -42,4 +42,7 @@ footer {
 }
 .list-page.transition-appear.transition-appear-active {
   opacity: 1;
+}
+.name_headline{
+  font-size: 4rem;
 }

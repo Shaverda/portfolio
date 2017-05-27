@@ -5,7 +5,7 @@ class TopHeader extends Component {
   render() {
     return (
       <nav className="pa3 pa4-ns bb b--black-10">
-          <Link className='link' to='/'><div className="link dim black b f1 f-headline-ns tc db mb1 mb4-ns" title="Home">Shelby Haverda</div></Link>
+          <Link className='link' to='/'><div className="name_headline link dim black b f1 f-headline-ns tc db mb1 mb4-ns" title="Home">Shelby Haverda</div></Link>
         <div className="tc pb3">
           <Link className="link dim gray f6 f5-ns dib mr3" to='/'>Home</Link>
           <Link className="link dim gray f6 f5-ns dib mr3" to='/about'>About</Link>      
