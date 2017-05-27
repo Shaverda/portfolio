@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
-import { TopHeader, BottomFooter } from '../presentation/';
-import { MainTypewriter, PortfolioGallery, AboutMe } from '../containers/';
+import TopHeader from "../presentation/TopHeader";
+import BottomFooter from "../presentation/BottomFooter";
+
+import MainTypewriter from '../containers/MainTypewriter';
+import PortfolioGallery from '../containers/PortfolioGallery';
+import AboutMe from '../containers/AboutMe';
 import Portfolio from './Portfolio';
 
 class Home extends Component {

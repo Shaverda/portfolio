@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom';
 import {RouteTransition} from 'react-router-transition';
 import spring from 'react-motion/lib/spring';
-import {PortfolioGallery} from '../containers/';
+import PortfolioGallery from '../containers/PortfolioGallery';
 
 // We will import all Portfolio Project Components here instead of dynamic
 // routes since we are not pulling these from a DB
